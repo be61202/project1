@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+
 
 const User = {
     email: 'test@example.com',
@@ -52,13 +54,23 @@ export default function Login() {
     }
     setNotAllow(true)
    }, [emailValid, pwValid]);
+
+   const navigate = useNavigate();
+   const handleSignupClick = () => { 
+    navigate("join");
+    };
+    const handleFindClick = () => {
+        navigate("idpw");
+      };
+
+   
     
 
     return (
         <div className="page">
 
             <div className="titleWrap">
-                    Login
+            Login
             </div>
 
             <div className="contentWrap">
@@ -80,7 +92,7 @@ export default function Login() {
                     }
                 </div>
                     
-            <div style={{marginTop: "26px"}} className="inputTitle">Password</div>
+             <div style={{marginTop: "26px"}} className="inputTitle">Password</div>
                 <div className="inputWrap">
                     <input
                     type='password'
@@ -97,16 +109,26 @@ export default function Login() {
                         )
                     }
                 </div>
+
+                <div className="buttoncontainer">
+                    <div className="singupBtnWrap">
+                        <button type="button" onClick={handleSignupClick}>회원가입</button>
+                    </div>
+
+                    <div className="findBtnWrap">
+                        <button type="button" onClick={handleFindClick}>ID/PW 찾기</button>
+                    </div>
+                </div>
                    
-        </div>
+           </div>
                 
-            <div>
+           <div>
                 <button onClick={onClickConfirmButton} disabled={notAllow} className="bottomButton">
                     확인
                 </button>
             </div>
                 
                 
-         </div>
+        </div>
     );
 }
