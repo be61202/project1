@@ -133,3 +133,28 @@ option{
   border-radius: 6px;
 }
 
+.buttoncontainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.singupBtnWrap,
+.findBtnWrap {
+  flex: 0 0 auto;
+  border: none;
+  background-color: transparent;
+}
+
+/* 버튼 스타일링 */
+button {
+  background-color: #FAF9F4;
+  padding: 10px;
+  color: #545454;
+  border: none;
+  cursor: pointer;
+}
+
+/* 버튼 hover */
+button:hover {
+  color: #cdcdcd;
+}
