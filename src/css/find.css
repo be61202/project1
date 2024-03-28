@@ -1,0 +1,102 @@
+
+.findpage{
+  position: fixed;
+  top: -50px;
+  bottom: 0;
+  width: 100%;
+  max-width: 500px;
+  padding: 0 20px;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+  background-color: #E6E7E9;
+
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+.emailFind{ /*이메일 영역 전체 박스*/
+  width: 480px;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 3px ;
+  border-radius: 5px;
+}
+
+.findBtn{
+  width: 100%;
+  background-color: #585857;
+  color: #fff;
+}
+.findBtn:hover{
+  color : #00ffeafb
+}
+
+.pwFind{/*비밀번호 영역 전체 박스*/
+  width: 480px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 3px ;
+  border-radius: 5px;
+}
+
+
+
+
+.inputwrap { /*인풋 영역 관련 css*/
+    display: flex;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border : 1px solid #e2e0e0;
+    
+  }
+
+  .inputF{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .inputSubF{
+    margin: 5px;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+.input{
+  width: 100%;
+  outline: none;
+  border: none;
+  height: 17px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.changePw{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.changesubPw{
+  width: 150px;
+  height: 48px;
+  margin: 10px;
+  border: none;
+  font-weight: 700;
+  background-color:#585857;
+  border-radius: 64px;
+  color: white;
+  margin-bottom: 16px;
+  cursor: pointer;
+}

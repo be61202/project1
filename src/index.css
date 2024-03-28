@@ -5,12 +5,9 @@
   width: 100%;
   max-width: 500px;
   padding: 0 20px;
-
   left: 50%;
   transform: translate(-50%, 0);
-
-  background-color: #FAF9F4;
-
+  background-color: #E6E7E9;
   overflow: hidden;
 
   display: flex;
@@ -22,7 +19,7 @@
   margin-top: 87px;
   font-size: 26px;
   font-weight: bold;
-  color: #CECBC3;
+  color: #585857;
 }
 
 .contentWrap {
@@ -147,9 +144,9 @@ option{
 
 /* 버튼 스타일링 */
 button {
-  background-color: #FAF9F4;
+  background-color: #E6E7E9;
   padding: 10px;
-  color: #545454;
+  color: #000000;
   border: none;
   cursor: pointer;
 }

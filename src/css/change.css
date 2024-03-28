@@ -1,0 +1,89 @@
+/* 전체 컨테이너 */
+.container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    max-width: 500px;
+    padding: 0 20px;
+    background-color: #E6E7E9;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  /* 비밀번호 변경 폼 */
+  .password-change-form {
+    width: 100%;
+    margin-top: 20vh;
+    background-color: white;
+    border-radius: 10px;
+    padding: 16px;
+  }
+  
+  /* 제목 */
+  .password-change-form h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  /* 입력폼 서브 영역 */
+  .input-wrap {
+    margin-bottom: 10px;
+    width: 100%; /* 부모 요소 너비 설정 */
+  }
+  
+  /* 입력 폼 레이블 */
+  .input-wrap label {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  /* 입력 폼 */
+  .input-wrap input {
+    width: 100%; /* 입력 박스 너비 상속 */
+    height: 17px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* 확인 버튼 */
+  #change-password-btn {
+    width: 100%;
+    height: 40px;
+    background-color: #585857;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  #new-password {
+   
+    height: 17px;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #e2e0e0;
+  }
+  #confirm-password{
+   
+    height: 17px;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #e2e0e0;
+  }
