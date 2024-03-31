@@ -3,6 +3,8 @@ import Login from "./pages/Login";
 import Signup from "./pages/join";
 import Find from "./pages/emailPwFind";
 import Change from "./pages/changepw";
+import Additem from "./pages/AddItem";
+
 function App() {
   return (
     <BrowserRouter>
@@ -11,6 +13,7 @@ function App() {
         <Route path="/join" element={<Signup />} />
         <Route path="/idpw" element={<Find />} />
         <Route path="/change" element={<Change />} />
+        <Route path="/add" element={<Additem />} />
       </Routes>
     </BrowserRouter>
   );

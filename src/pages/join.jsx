@@ -208,7 +208,7 @@ export default function Signup() {
           )}
         </div>
 
-        <div className="inputTitle">Password</div>
+        <div className="inputTitle">비밀번호</div>
         <div className="inputWrap">
           <input
             type="password"
@@ -224,7 +224,7 @@ export default function Signup() {
           )}
         </div>
 
-        <div className="inputTitle">Confirm Password</div>
+        <div className="inputTitle">비밀번호 확인</div>
         <div className="inputWrap">
           <input
             type="password"
@@ -239,7 +239,7 @@ export default function Signup() {
           )}
         </div>
 
-        <div className="inputTitle">name</div>
+        <div className="inputTitle">이름</div>
         <div className="inputWrap">
           <input
             type="text"
@@ -252,7 +252,7 @@ export default function Signup() {
           {!nameValid && nameMessage && <div>{nameMessage}</div>}
         </div>
 
-        <div className="inputTitle">birth date</div>
+        <div className="inputTitle">생년월일</div>
         <div className="info" id="info__birth">
           <select className="box" id="birth-year">
             <option disabled selected>
@@ -271,7 +271,7 @@ export default function Signup() {
           </select>
         </div>
 
-        <div className="inputTitle">nickname</div>
+        <div className="inputTitle">닉네임</div>
         <div className="inputWrap">
           <input
             type="text"
@@ -287,7 +287,7 @@ export default function Signup() {
 
       <div>
         <button className="bottomButton" onClick={doSubmit}>
-          Submit
+          회원가입
         </button>
       </div>
     </div>
